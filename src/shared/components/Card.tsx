@@ -23,8 +23,8 @@ export function Card(props: CardInterface) {
                 <div className="p-4 flex flex-col flex-grow">
                     {/* Card Header */}
                     <div className="mb-4">
-                    <h2 className="text-lg font-bold">{props.title}</h2>
-                    <p className="text-sm text-gray-400">{ props.subtitle }</p>
+                        <h2 className="text-lg font-bold">{props.title}</h2>
+                        <p className="text-sm text-gray-400">{ props.subtitle }</p>
                     </div>
             
                     {/* Card Description */}
@@ -32,15 +32,15 @@ export function Card(props: CardInterface) {
             
                     {/* Card Footer */}
                     <div className="mt-4 flex items-center justify-between">
-                    <button
-                        className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-semibold"
-                    >
-                        { props.actionLabel }
-                    </button>
-                    <p className="text-gray-400 text-xs">{ props.metadata }</p>
+                        <button
+                            className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-semibold"
+                        >
+                            { props.actionLabel }
+                        </button>
+                        <p className="text-gray-400 text-xs">{ props.metadata }</p>
                     </div>
                 </div>
-                </div>
+            </div>
         
         </>
     )

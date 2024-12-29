@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export function Header() {
     return (
         <div className="navbar rounded-lg">
@@ -12,9 +14,9 @@ export function Header() {
                                 <img src="https://i.pravatar.cc/150?u=a042581f4e29026024d" alt="avatar" />
                             </label>
                             <div className="dropdown-menu dropdown-menu-bottom-left">
-                                <a className="dropdown-item text-sm">Profile</a>
-                                <a tabIndex={-1} className="dropdown-item text-sm">Account settings</a>
-                                <a tabIndex={-1} className="dropdown-item text-sm">Subscriptions</a>
+                                <NavLink to="/profile" className="dropdown-item text-sm">Perfil</NavLink>
+                                <NavLink to="/collection" className="dropdown-item text-sm">Coleção</NavLink>
+                                <NavLink to="/friends" className="dropdown-item text-sm">Companheiros</NavLink>
                             </div>
                         </div>
                     </div>
