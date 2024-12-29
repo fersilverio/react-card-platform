@@ -13,6 +13,8 @@ export function Home() {
             <NavLink to={"/profile"}>profile</NavLink>
             <br />
             <NavLink to={"/collection"}>collection</NavLink>
+            <br />
+            <NavLink to={"/friends"}>friends</NavLink>
         </>
     )
 }
