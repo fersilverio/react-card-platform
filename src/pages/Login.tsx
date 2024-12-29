@@ -1,5 +1,6 @@
 import { InputField } from "../shared/components/InputField";
 import { IconMap } from "../shared/icon-mapping.enum";
+import { Register } from "./Register";
 
 export function Login() {
     return (
@@ -43,10 +44,9 @@ export function Login() {
 
                 <button className="text-gray-100 text-md rounded-md bg-gradient-to-tr from-purple-900 to-purple-300 w-full shadow-sm shadow-purple-600 pt-2 pb-2">Entrar</button>
 
-            </div>
+                <Register />
 
-            
-            
+            </div>
         </div>
     )
 }

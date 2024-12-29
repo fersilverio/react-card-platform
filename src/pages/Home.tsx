@@ -8,8 +8,6 @@ export function Home() {
 
             <NavLink to={"/login"}>login</NavLink>
             <br />
-            <NavLink to={"/register"}>register</NavLink>
-            <br />
             <NavLink to={"/profile"}>profile</NavLink>
             <br />
             <NavLink to={"/collection"}>collection</NavLink>
